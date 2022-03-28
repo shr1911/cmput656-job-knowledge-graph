@@ -1,0 +1,28 @@
+train_gpu:
+  cmd: python -m spacy run train_gpu
+  script:
+    - python -m spacy train configs/rel_trf.cfg --output training --paths.train data/relations_training.spacy
+      --paths.dev data/relations_dev.spacy -c ./scripts/custom_functions.py --gpu-id
+      0
+  deps:
+    - path: data/relations_training.spacy
+      md5: a5abdab3b44cff8e3fba14dc1c8f2045
+    - path: data/relations_dev.spacy
+      md5: 2b3b94a1a1b3c9661cc0999fa5f50167
+  outs:
+    - path: training/model-best
+      md5: 46999d3b78d86e60a2318633e36cb461
+  spacy_version: 3.2.3
+  spacy_git_version: 99425de36
+evaluate:
+  cmd: python -m spacy run evaluate
+  script:
+    - python ./scripts/evaluate.py training/model-best data/relations_test.spacy False
+  deps:
+    - path: training/model-best
+      md5: 46999d3b78d86e60a2318633e36cb461
+    - path: data/relations_test.spacy
+      md5: 5387db26c42f56eeafe029280787d64f
+  outs: []
+  spacy_version: 3.2.3
+  spacy_git_version: 99425de36
