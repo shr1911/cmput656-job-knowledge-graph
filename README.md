@@ -18,6 +18,9 @@
 ## Data
 For data we have used publically available data set on Kaggle. Click [here](https://www.kaggle.com/datasets/airiddha/trainrev1) to get the dataset.
 
+## Models
+Models are saved here: https://drive.google.com/drive/folders/1j7Owb6J7pOXJN04H46VQrkxPkxbAAbLq?usp=sharing
+
 ## Acknowledgement 
 Project work was discussed with Prof. Denilson Barbosa
 
