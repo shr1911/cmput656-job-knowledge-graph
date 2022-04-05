@@ -1,4 +1,4 @@
-# CMPUT-656-job-knowledge-graph
+# CMPUT-656 Towards Entity Recognition and Relation Extraction from Job Description Text
 
 ## Group Members
 |Student name| CCID |
@@ -41,6 +41,6 @@ Project work was discussed with Prof. Denilson Barbosa
 
 - Relation extraction component issues: https://github.com/explosion/spaCy/discussions/9567
 
-- Working of neo4j with google colab: https://colab.research.google.com/github/johnymontana/ggcd-samples/blob/master/notebooks/ggcd.ipynb & https://towardsdatascience.com/create-a-graph-database-in-neo4j-using-python-4172d40f89c4 & https://stackoverflow.com/questions/48613002/sha-256-hashing-in-python
+- Working of neo4j with google colab: https://colab.research.google.com/github/johnymontana/ggcd-samples/blob/master/notebooks/ggcd.ipynb &    https://towardsdatascience.com/create-a-graph-database-in-neo4j-using-python-4172d40f89c4 & https://stackoverflow.com/questions/48613002/sha-256-hashing-in-python
 
 - Neo4j queries to construct KG: https://neo4j.com/developer/graph-data-science/build-knowledge-graph-nlp-ontologies/ & https://neo4j.com/developer/cypher/guide-build-a-recommendation-engine/
