@@ -20,6 +20,7 @@ For data we have used publically available data set on Kaggle. Click [here](http
 
 ## Models
 Models are saved here: https://drive.google.com/drive/folders/1j7Owb6J7pOXJN04H46VQrkxPkxbAAbLq?usp=sharing
+the data folder for spacy files needed for spacy-relation-extraction is also placed on above drive
 
 ## Acknowledgement 
 Project work was discussed with Prof. Denilson Barbosa
