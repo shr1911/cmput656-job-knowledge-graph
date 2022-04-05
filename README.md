@@ -14,6 +14,7 @@
      - Job_Knowledge_Graph.ipynb -> contains neo4j sandbox establishment and feeding data to it
 - `data`: contains smaller chunk of dataset, the link to the same is given in Data section below 
 - `spacy-relation-extraction`: contains modified base relation extraction given by Spacy
+- `report`: contains the proposal, checkin and final report
 
 ## Data
 For data we have used publically available data set on Kaggle. Click [here](https://www.kaggle.com/datasets/airiddha/trainrev1) to get the dataset.
